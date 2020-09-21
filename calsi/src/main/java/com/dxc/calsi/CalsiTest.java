@@ -8,6 +8,7 @@ public class CalsiTest {
 		int result = 	add(4,5);
 		
 			System.out.println(result);
+
 		
 	}
 	
@@ -20,7 +21,11 @@ public class CalsiTest {
 		return num1+num2;
 		
 	}
-	
+	public static int sub(int  num1,int num2) {
+		
+		return num1-num2;
+		
+	}
 	
 
 }
